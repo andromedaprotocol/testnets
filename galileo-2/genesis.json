@@ -236,8 +236,8 @@
     "wasm": {
       "params": {
         "code_upload_access": {
-          "permission": "Everybody",
-          "address": ""
+          "permission": "OnlyAddress",
+          "address": "andr1reqkgqejagvgfzap90ss92yjph0gpf9c9g6chx"
         },
         "instantiate_default_permission": "Everybody"
       },
