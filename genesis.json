@@ -58,6 +58,27 @@
             "end_time": "1676995641"
           },
           "start_time": "1676390841"
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.ContinuousVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "andr1txh3lfzu72naxywze8vqcjq77wstx3z8vlpk6j",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "uandr",
+                "amount": "1000000000000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1678637241"
+          },
+          "start_time": "1676822841"
         }
       ]
     },
@@ -70,6 +91,15 @@
         "default_send_enabled": true
       },
       "balances": [
+        {
+          "address": "andr1txh3lfzu72naxywze8vqcjq77wstx3z8vlpk6j",
+          "coins": [
+            {
+              "denom": "uandr",
+              "amount": "1000000000000"
+            }
+          ]
+        },
         {
           "address": "andr1szr02tt36rf5d2xfmx8mskekyuh7gnvwedry7j",
           "coins": [
@@ -92,7 +122,7 @@
       "supply": [
         {
           "denom": "uandr",
-          "amount": "25002500000000"
+          "amount": "26002500000000"
         }
       ],
       "denom_metadata": []
